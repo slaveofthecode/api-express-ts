@@ -11,19 +11,29 @@
 ## init project
 
 - npm run tsc -- --init
-- > edit if needed the tscondig.json file
+- > edit if needed the tsconfig.json file
+- npm run tsc // add script "tsc" un package.json
 
 ---
 
-## install
+---
 
-- npm install express -E // -E refer to only version (without "^")
-- npm install @types/express -D // is needed for types of Express
+### lib
+
+- > [express](https://expressjs.com/)
+- > [@types/express](https://www.npmjs.com/package/@types/express)
+- > [dotenv](https://www.npmjs.com/package/dotenv)
+- > [ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
+- > [ts-standard](https://www.npmjs.com/package/ts-standard)
 
 ---
 
-## run
+### Tech & languages and more...
 
-- npm run tsc
+- > [yarn](https://yarnpkg.com/)
 
----
+```
+- yarn add <lib> -E
+- yarn remove <lib>
+- yarn run <script>
+```

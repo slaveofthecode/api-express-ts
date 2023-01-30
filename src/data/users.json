@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Leanne Graham",
+    "gender": "Bret",
+    "salary": 267000,
+    "salaryCurrency": "ARS"
+  },
+  {
+    "id": 2,
+    "name": "Ervin Howell",
+    "gender": "Antonette",
+    "salary": 3000,
+    "salaryCurrency": "USD"
+  },
+  {
+    "id": 3,
+    "name": "Clementine Bauch",
+    "gender": "Samantha",
+    "salary": 340000,
+    "salaryCurrency": "ARS"
+  },
+  {
+    "id": 4,
+    "name": "Patricia Lebsack",
+    "gender": "binary",
+    "salary": 156,
+    "salaryCurrency": "GBP"
+  },
+  {
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "gender": "fame",
+    "salary": 1289,
+    "salaryCurrency": "JPY"
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Dennis Schulist",
+    "gender": "male",
+    "salary": 6430,
+    "salaryCurrency": "USD"
+  },
+  {
+    "id": 7,
+    "name": "Kurtis Weissnat",
+    "gender": "male",
+    "salary": 2780,
+    "salaryCurrency": "EUR"
+  },
+  {
+    "id": 8,
+    "name": "Nicholas Runolfsdottir V",
+    "gender": "male",
+    "salary": 586.493,
+    "salaryCurrency": "ARS"
+  },
+  {
+    "id": 9,
+    "name": "Glenna Reichert",
+    "gender": "fame",
+    "salary": 5700,
+    "salaryCurrency": "USD"
+  },
+  {
+    "id": 10,
+    "name": "Clementina DuBuque",
+    "gender": "binary",
+    "salary": 280000,
+    "salaryCurrency": "ARS"
+  }
+]
