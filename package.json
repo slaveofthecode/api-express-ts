@@ -1,7 +1,7 @@
 {
   "name": "api-express-ts",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example of API with Express and TypeScript, applying Views. ",
   "main": "index.js",
   "scripts": {
     "tsc": "tsc",
