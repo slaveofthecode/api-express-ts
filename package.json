@@ -32,7 +32,13 @@
       "project": "./tsconfig.json"
     },
     "rules": {
-      "semi": "off",
+      "semi": [
+        "error",
+        "always",
+        {
+          "omitLastInOneLineBlock": false
+        }
+      ],
       "@typescript-eslint/semi": "off"
     }
   }

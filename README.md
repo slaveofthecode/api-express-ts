@@ -1,4 +1,7 @@
 # api-express-ts
+[link video lead](https://www.youtube.com/watch?v=o85OkeVtm7k&ab_channel=midudev)
+
+## first steps
 
 - mkdir api-express-ts
 - cd api-express-ts
@@ -11,7 +14,7 @@
 ## init project
 
 - npm run tsc -- --init
-- > edit if needed the tsconfig.json file
+- > edit if needed the tsconfig.json file for different options
 - npm run tsc // add script "tsc" un package.json
 
 ---
@@ -36,4 +39,11 @@
 - yarn add <lib> -E
 - yarn remove <lib>
 - yarn run <script>
+```
+
+### To run App
+
+```
+- yarn dev // run app in dev mode
+- yarn start // run app in production mode 
 ```
