@@ -3,7 +3,8 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import { routes } from './routes';
 
-dotenv.config(); // load .env file
+// load .env file
+dotenv.config();
 
 const PORT = process.env.PORT_NUMBER ?? 3000;
 
