@@ -1,0 +1,19 @@
+html
+    head 
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(charset='utf-8')
+        meta(favicon='favicon.ico' type='image/x-icon' rel='shortcut icon' )
+        link(rel="stylesheet", href="./styles/index.css")
+        //- style 
+        //-     include ./styles/index.css
+
+        //- block styles
+    body
+        h1= title
+        p Welcome to #{name}
+        p
+            a(href='/users') Users
+
+        div
+            span= message   

@@ -1,5 +1,7 @@
-import router from './users';
+import userRouter from './users';
+import exampleRouter from './example';
 
 export const routes = {
-  userRouter: router
+  userRouter,
+  exampleRouter
 };
