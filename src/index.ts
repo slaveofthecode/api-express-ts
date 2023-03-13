@@ -23,10 +23,7 @@ app.set('view engine', 'pug');
 // app configuration
 app.use(express.json()); // for parsing application/json - transform req.body to json
 app.use(express.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded - transform req.body to json
-// app.use(express.static(path.join(__dirname, 'public'))); // for serving static files (css, js, images, etc.
-app.use(express.static('public')); // for serving static files (css, js, images, etc.
-// app.use('/styles', express.static(PATH_STYLES)); // for serving static files (css, js, images, etc.
-// app.use('/assets', express.static(PATH_ASSETS)); // for serving static files (css, js, images, etc.
+app.use(express.static('dist')); // for serving static files (css, js, images, etc.
 
 // User Routes
 app.use('/api/example', routes.exampleRouter);

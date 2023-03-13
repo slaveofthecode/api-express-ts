@@ -31,7 +31,7 @@ router.get('/example/with-params/:id', (req, res) => {
 router.get('/with-image', (_req, res) => {
   // console.log('PATH_PUBLIC', PATH_ASSETS);
   // res.sendFile(`${PATH_ASSETS}/image.jpg`);
-  res.sendFile('./assets/image.jpg', { root: 'public' });
+  res.sendFile('./assets/image.jpg', { root: 'dist' });
 });
 
 export default router;

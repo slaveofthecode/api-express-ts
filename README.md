@@ -4,6 +4,8 @@ Some links to learn more about this project
 [Aprendiendo NodeJs y Express para crear una API](https://www.youtube.com/watch?v=o85OkeVtm7k&ab_channel=midudev)
 [Tu primer aplicación de Nodejs desde Cero (más Despliegue)](https://www.youtube.com/watch?app=desktop&v=OVESuyVoPkI&ab_channel=Fazt)
 [Api con NODE y despliegue con AWS EC2 !](https://www.youtube.com/watch?v=nSA3SVC0gqc&ab_channel=GentlemanProgramming)
+[How to Build a Node.js Application with Express and Pug](https://betterstack.com/community/guides/scaling-nodejs/build-nodejs-application-express-pug/)
+
 
 ## first steps
 
