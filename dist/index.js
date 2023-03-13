@@ -11,7 +11,7 @@ const path_1 = __importDefault(require("path"));
 const routes_1 = require("./routes");
 // load .env file
 dotenv_1.default.config();
-const PORT = (_a = process.env.PORT_NUMBER) !== null && _a !== void 0 ? _a : 3000;
+const PORT = (_a = process.env.PORT_NUMBER) !== null && _a !== void 0 ? _a : 8080;
 // export const PATH_STYLES = path.join(__dirname, '/styles');
 // export const PATH_ASSETS = path.join(__dirname, '/assets');
 const app = (0, express_1.default)();
