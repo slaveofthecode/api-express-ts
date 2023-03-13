@@ -1,6 +1,6 @@
 import express from 'express';
+// import { PATH_ASSETS } from '../../index';
 
-const PATH_SRC = __dirname; // path to src folder
 const PORT = process.env.PORT_NUMBER ?? 3000;
 
 const router = express.Router();
@@ -17,7 +17,7 @@ router.get('/example/with-html', (_req, res) => {
 `);
 });
 
-router.get('/example/with-json', (_req, res) => {
+router.get('/with-json', (_req, res) => {
   res.json({
     date: new Date().toLocaleDateString(),
     message: 'Example with JSON'
@@ -28,8 +28,10 @@ router.get('/example/with-params/:id', (req, res) => {
   res.send(`The id is ${req.params.id} and the type is ${typeof req.params.id}. These values are passed as parameters in the url.`);
 });
 
-router.get('/example/with-image', (_req, res) => {
-  res.sendFile(`${PATH_SRC}/assets/image.jpg`);
+router.get('/with-image', (_req, res) => {
+  // console.log('PATH_PUBLIC', PATH_ASSETS);
+  // res.sendFile(`${PATH_ASSETS}/image.jpg`);
+  res.sendFile('./assets/image.jpg', { root: 'public' });
 });
 
 export default router;

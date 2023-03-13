@@ -12,8 +12,13 @@ html
     body
         h1= title
         p Welcome to #{name}
-        p
-            a(href='/users') Users
+
+        ul 
+            li
+                a(href='/api/example/with-json') Show Json
+            li
+                a(href='/api/example/with-image') Show image
+            
 
         div
             span= message   
