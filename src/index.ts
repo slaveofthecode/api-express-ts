@@ -7,10 +7,7 @@ import { routes } from './routes';
 // load .env file
 dotenv.config();
 
-const PORT = process.env.PORT_NUMBER ?? 8080;
-
-// export const PATH_STYLES = path.join(__dirname, '/styles');
-// export const PATH_ASSETS = path.join(__dirname, '/assets');
+const PORT = process.env.PORT_NUMBER ?? 3000;
 
 const app = express();
 
